@@ -76,3 +76,6 @@ DerivedDataCache/*
 * Exe build files
 Builds/*
 
+Plugins/Rive/*
+
+
