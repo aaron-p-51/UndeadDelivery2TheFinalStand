@@ -76,16 +76,7 @@ DerivedDataCache/*
 * Exe build files
 Builds/*
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Plugins/Rive/*
-
-
->>>>>>> parent of da7c329 (Add all plugins to gitignore)
-=======
 Plugins/*
 
 
 
->>>>>>> da7c3298410e1e1133d12305b517fd2bfc74567a
