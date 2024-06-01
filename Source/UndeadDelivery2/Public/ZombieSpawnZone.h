@@ -4,23 +4,30 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "MyActor.generated.h"
+#include "ZombieSpawnZone.generated.h"
+
+class UBoxComponent;
+
 
 UCLASS()
-class UNDEADDELIVERY2_API AMyActor : public AActor
+class UNDEADDELIVERY2_API AZombieSpawnZone : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AMyActor();
+	AZombieSpawnZone();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	UPROPERTY(Category = "ZombieSpawnZone", EditAnywhere, BlueprintReadWrite)
+	TObjectPtr<UBoxComponent> SpawnZone;
 
+	
+
+public:	
+
+	bool CanBeSeenByPlayer(APlayerController* PlayerController) const;
 };
