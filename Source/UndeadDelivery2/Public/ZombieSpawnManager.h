@@ -47,7 +47,7 @@ public:
 
 protected:
 
-	UPROPERTY(Category = "ZombieSpawnManager", EditAnywhere, BlueprintReadWrite)
-	TArray<AZombie*> SpawnedZombies; 
+	//UPROPERTY(Category = "ZombieSpawnManager", EditAnywhere, BlueprintReadWrite)
+	//TArray<AZombie*> SpawnedZombies; 
 
 };
