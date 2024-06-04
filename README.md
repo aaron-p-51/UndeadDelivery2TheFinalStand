@@ -27,7 +27,7 @@ The first Undead Delivery game can be found here: https://zamzee.itch.io/undead-
 The repo for Undead Delivery can be found here: https://github.com/aaron-p-51/UndeadDelivery
 
 ## Install Instructions
-This Unreal Engine 5 project uses Rive and requires the Rive runtime plugin for Unreal. After cloning this repo create a `Plugins/` folder in the same directory as the .uproject. Download the 0.1.17 release version of the rive plugin https://github.com/rive-app/rive-unreal/releases. Unzip Rive.zip and place it in the newely created `Plugins/' folder.
+This Unreal Engine 5 project uses Rive and requires the Rive runtime plugin for Unreal. After cloning this repo create a `Plugins/` folder in the same directory as the .uproject. Download the 0.1.17 release version of the rive plugin https://github.com/rive-app/rive-unreal/releases. Unzip Rive.zip and place it in the newely created `Plugins/` folder.
 
 
 ## Credits For Asset Usage
