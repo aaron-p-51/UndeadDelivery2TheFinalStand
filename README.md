@@ -1,5 +1,5 @@
 
-# Undead Delivery 2: The Last Stand - Submission for GameDev.tv Game Jam 2023
+# Undead Delivery 2: The Last Stand - Submission for GameDev.tv Game Jam 2024
 
 ### Game Jam Details
 #### Theme : Last Stand!
